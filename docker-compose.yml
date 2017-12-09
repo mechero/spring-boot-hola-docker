@@ -1,0 +1,13 @@
+version: '2.2'
+services:
+  hola:
+    build:
+      context: ./
+    image: holaweb
+    ports:
+      - 8080
+    networks:
+      - network1
+
+networks:
+  network1:
