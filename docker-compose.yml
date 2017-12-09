@@ -3,6 +3,7 @@ services:
   hola:
     build:
       context: ./
+      dockerfile: Dockerfile
     image: holaweb
     ports:
       - 8080
